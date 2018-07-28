@@ -1,0 +1,97 @@
+/* initialization for all elements  */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100% 100% !important;
+  background-color: #efefef  !important;
+}
+
+:root {
+  --header-font:  'Lalezar', cursive;
+  --black: black;
+}
+
+/* header style starts */
+#header {
+  width:100%;
+}
+
+#header header {
+  height: 90px;
+  background-color: white;
+}
+
+/* header image logo */
+#header header .glosys-logo {
+  padding: 10px 10px 5px 30px;
+  float: left;
+}
+
+/* header image */
+#header header .glosys-logo img {
+  width:280px;
+  height: 70px;
+}
+
+#log-out {
+  float:right;
+  margin:25px 40px auto auto;
+}
+
+#log-out .username {
+  float: left;
+  font-size: 30px;
+  margin:5px 20px auto auto;
+  font-family: var(--header-font);
+}
+
+#log-out form {
+  float: right;
+}
+
+#log-out form input {
+  width:100px;
+  height: 40px;
+  font-family: var(--header-font);
+  font-size: 20px;
+}
+
+.products {
+  width:80%;
+  height: 400px;
+  display: flex;
+  margin: 100px auto auto 200px;
+}
+
+.products .product {
+  flex: 1;
+  /* border: 2px solid black; */
+}
+
+.products .product .name , .products .product .price {
+  margin-left: 35px;
+  font-family: var(--header-font);
+  font-size: 22px;
+  padding-top: 10px;
+}
+
+.products .product .order button {
+  margin-left: 55px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.done {
+  font-size: 50px;
+  color: green;
+  font-weight: bolder;
+  margin:100px auto auto 200px;
+
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 30px;
+}
